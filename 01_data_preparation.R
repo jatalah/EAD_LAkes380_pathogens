@@ -119,7 +119,6 @@ write_csv(t_meta_ss, 'data/t_meta_ss.csv')
 write_csv(sw_pathons_by_lake_metadata, 'data/clean_sw_pathogens_metadata.csv')
 write_csv(ss_pathons_by_lake_metadata, 'data/clean_ss_pathogens_metadata.csv')
 
-
 # # check number of zeros
 # sum(melted_sw$Abundance==0)/nrow(melted_sw)*100
 # sum(melted_ss$Abundance==0)/nrow(melted_ss)*100
